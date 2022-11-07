@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,400&family=Poor+Story&family=Poppins:wght@100&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poor Story', cursive;
+/* font-family: 'Poppins', sans-serif;  */
+}
+.parent_counter{
+         z-index: 0;
+         width: 500px; height: 300px; 
+         /* border: 2px solid black;  */
+         border-radius: 20px; 
+         margin: 0 auto; margin-top: 15rem;
+        -webkit-animation: color-change-2x 2s linear infinite alternate both;
+	     animation: color-change-2x 2s linear infinite alternate both;
+
+}
+.child_counter{
+     align-items: center; 
+     text-align: center;
+}
+.myBtn{
+    font-size: 22px; 
+    font-weight: 500;
+    padding: 20px; 
+    border-radius: 15px; 
+    border: none;
+    transition: all .3s ease;
+}
+.myBtn:hover{
+       font-size: 30px;
+       color: #2c4cff;
+}
+ @-webkit-keyframes color-change-2x {
+    0% {
+      background: #19dcea;
+    }
+    100% {
+      background: #b22cff;
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background: #19dcea;
+    }
+    100% {
+      background: #b22cff;
+    }
+  }
+  
